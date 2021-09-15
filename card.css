@@ -1,0 +1,43 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(139, 141, 27, 0.2);
+    color: #ffba08;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    /* background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/in-this-photo-illustration-an-impossible-whopper-sits-on-a-news-photo-1574457000.jpg?crop=1xw:1xh;center,top&resize=480:*"); */
+    background-image: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80");
+    background-position: 10%;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button{
+    background: none;
+    color: coral;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 0.5em 0.5em;
+    font-size: 1em;
+    transition: color 0.5s,border-color 0.2s,transform 0.4s;
+}
+button:hover{
+    border-color: lightblue;
+    box-shadow: 0 0.5em 0.5em -0.4em lightblue;
+    color: rgb(250, 101, 213);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(43, 211, 80);
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+    color: red;
+  }
