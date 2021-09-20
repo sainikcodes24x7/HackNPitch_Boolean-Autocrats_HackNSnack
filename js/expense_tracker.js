@@ -46,6 +46,8 @@ function addTransationDOM(transation) {
     )}</span> <button class="delete-btn" onclick="removeTransation(${transation.id
         })">x</button>`;
     list.appendChild(item);
+    // localStorage.setItem('mostRecentScore', total);
+
 }
 function updateValues() {
     const amounts = transations.map((transation) => transation.amount);
@@ -62,6 +64,9 @@ function updateValues() {
     balance.innerText = `₹${total}`;
     money_plus.innerText = `₹${income}`;
     money_minus.innerText = `₹${expense}`;
+    localStorage.setItem('mostRecentScore', total);
+    console.log(total);
+
 }
 
 function removeTransation(id) {
@@ -72,6 +77,11 @@ function removeTransation(id) {
 
 function updateLocalStorage() {
     localStorage.setItem("transations", JSON.stringify(transations));
+    // localStorage.setItem("totalSUM",)
+    // console.log(total)
+    // console.log(JSON.stringify(transations));
+    // localStorage.setItem('mostRecentScore', total);
+
 }
 
 
@@ -83,3 +93,4 @@ function init() {
 init();
 
 form.addEventListener("submit", addTransation);
+// localStorage.setItem('mostRecentScore', total);

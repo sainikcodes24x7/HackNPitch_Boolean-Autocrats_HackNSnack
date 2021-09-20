@@ -21,8 +21,20 @@
   <a href="#"><i class="fa fa-twitter"></i></a>
   <a href="#"><i class="fa fa-linkedin"></i></a>
   <a href="#"><i class="fa fa-facebook"></i></a> -->
-  <button>CURRENT BALANCE</button>
-  <p><button>RECHARGE</button></p>
+  <button onclick="disp()">CURRENT BALANCE</button>
+  <p><button ><a class="linker" href="expenseTracker.html">RECHARGE</a></button></p>
 </div>
+<script type="text/javascript">
+
+  function disp(){
+    const mostRecentScore = localStorage.getItem('mostRecentScore');
+     alert(`CURRENT BALANCE IS ${mostRecentScore}`)
+     console.log(mostRecentScore)
+
+  }
+  
+</script>
 </body>
+
+
 </html>
