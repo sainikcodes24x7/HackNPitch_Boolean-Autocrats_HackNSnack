@@ -65,7 +65,7 @@ function updateValues() {
     money_plus.innerText = `₹${income}`;
     money_minus.innerText = `₹${expense}`;
     localStorage.setItem('mostRecentScore', total);
-    console.log(total);
+    // console.log(total);
 
 }
 
