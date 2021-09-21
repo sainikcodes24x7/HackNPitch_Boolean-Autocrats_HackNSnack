@@ -7,6 +7,7 @@
   /* background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/in-this-photo-illustration-an-impossible-whopper-sits-on-a-news-photo-1574457000.jpg?crop=1xw:1xh;center,top&resize=480:*"); */
   background-image: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80");
   background-position: 10%;
+  margin-top: 90px;
 }
 
 .title {
