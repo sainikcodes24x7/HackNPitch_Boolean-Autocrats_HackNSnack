@@ -16,7 +16,10 @@
 body {
     font-family: "Viaoda Libre", cursive;
     /* background-color: var(--bg); */
-    background-color: white;
+    /* background-color: white; */
+    background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+
     color: var(--text);
     display: flex;
     flex-direction: column;
