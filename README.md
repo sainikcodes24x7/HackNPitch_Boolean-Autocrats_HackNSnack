@@ -16,5 +16,6 @@ chatbot to resolve queries
 students from any of the participating colleges can enjoy food from any particular college canteen.
 Licenses: License and permission from different institutions to collect their menu information and updates to display on our platform.
 
+RUN ON LOCALHOST: 
 
 To access the website through local host we recommend you to clone the repository into your system and then run the website through localhost by using live server(in VS code).
