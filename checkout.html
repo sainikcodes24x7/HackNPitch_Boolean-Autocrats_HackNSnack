@@ -7,12 +7,13 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
+    <title>HACKNSNACK</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -20,7 +21,48 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="./css/expense_tracker2.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/expense_tracker.css" /> -->
+   <style>
+       #xxx:hover{
+           color: orangered;
+       }
+body{
+    background-color: rgb(209, 222, 135); 
+    /* background-image: url('https://media.istockphoto.com/photos/teamwork-makes-the-dream-work-picture-id1251305386?b=1&k=20&m=1251305386&s=170667a&w=0&h=iHkkgSYKwTFe030XZDsOXfwzhTlNfOmfjwWVySZS_Ko=');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+   </style>
 </head>
 
 <body>
@@ -63,7 +105,7 @@
                 <li><a href="#">Pages</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./shop-details.html">Shop Details</a></li>
-                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="shoping cart final.html">Shoping Cart</a></li>
                         <li><a href="./checkout.html">Check Out</a></li>
                         <!-- <li><a href="./blog-details.html">Blog Details</a></li> -->
                     </ul>
@@ -81,29 +123,29 @@
         </div>
         <div class="humberger__menu__contact">
             <ul>
-                <li><i class="fa fa-envelope"></i> hello@Boolean Autocrats.com</li>
-                <li>Free Shipping for all Order of ₹99</li>
+                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+                <li>Free Shipping for all Order of $99</li>
             </ul>
         </div>
     </div>
     <!-- Humberger End -->
 
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header" style="background-color: rgb(189, 114, 114)">
         
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="LOGO HACK SNAK.png" style="width: 115px; height: 130px;" alt="">
+                        <a href="./index.html"><img src="LOGO HACK SNAK.png" style="width: 175px; height: 200px;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
                             <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./shop-grid.html">Meal</a></li>
-                            <li><a href="#">Pages</a>
+                            <li class="active" id="xxx"><a href="./shop-grid.html" style="color: black;">Meal</a></li>
+                            <li><a href="#">Services</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.html">Shop Details</a></li>
                                     <li><a href="./shoping-cart.html">Shoping Cart</a></li>
@@ -111,7 +153,7 @@
                                     <!-- <li><a href="./blog-details.html">Blog Details</a></li> -->
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./blog.html">Canteens</a></li>
                             <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
@@ -206,7 +248,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h6><span class="icon_tag_alt"></span> Registered with the card yet? <a href="./card.html">Click here to view your card.</a> 
+                    <h6><span class="icon_tag_alt"></span> Registered with the card yet? <a href="shop-details.html">Click here to view your card.</a> 
                     </h6>
                     
                 </div>
@@ -291,17 +333,74 @@
                                     placeholder="Notes about your order, e.g. special notes for delivery.">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6" style="
+    padding-left: 155px;
+">
+                            <button class="favorite styled"
+                            type="button">
+                      <a href="expenseTracker.html" style="color: yellow;" > EXPENSE TRACKER</a> 
+                    </button>
+                        </div>
+                        <!--<div class="col-lg-4 col-md-6">
+
+                            <div class="container">
+                                <h4>Balance</h4>
+                                <h1 id="balance">₹0.0</h1>
+                                <div class="inc-exp-container">
+                                    <div>
+                                        <h4>Credit</h4>
+                                        <p id="money-plus" class="money plus">+₹0.00</p>
+                                    </div>
+                                    <div>
+                                        <h4>Debit</h4>
+                                        <p id="money-minus" class="money minus">-₹0.00</p>
+                                    </div>
+                                </div>
+                                <h3>Transaction History</h3>
+                                
+                                <ul id="list" class="list">
+                                </ul>
+                                <h3>Add new transation</h3>
+                                
+                                <form action="" id="form">
+                                    <div class="form-control">
+                                        <label for="text">Details / Item</label>
+                                        <input type="text" id="text" placeholder="ID" />
+                                    </div>
+                                    <br>
+                                    
+                                    <div class="form-control">
+                                        <label for="amount">Amount <br /> Enter negative amount for Purchase</label>
+                                       
+                                        <input type="number" id="amount" placeholder="please enter the amount..." />
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <button class="btn">Perform transation</button>
+                        
+                                    <button class="btn" href="/"><a href="card.html">BACK</a></button>
+                                </form>
+                            </div>
+                        
+                                 
+
+
+
+
+
+                        </div> -->
+                        <!-- <div class="col-lg-4 col-md-6">
                             <div class="checkout__order">
                                 <h4>Your Order</h4>
                                 <div class="checkout__order__products">Products <span>Total</span></div>
                                 <ul>
-                                    <li>Vegetable’s Package <span>₹75.99</span></li>
-                                    <li>Fresh Vegetable <span>₹151.99</span></li>
-                                    <li>Organic Bananas <span>₹53.99</span></li>
+                                    <li>Vegetable’s Package <span>$75.99</span></li>
+                                    <li>Fresh Vegetable <span>$151.99</span></li>
+                                    <li>Organic Bananas <span>$53.99</span></li>
                                 </ul>
-                                <div class="checkout__order__subtotal">Subtotal <span>₹750.99</span></div>
-                                <div class="checkout__order__total">Total <span>₹750.99</span></div>
+                                <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
+                                <div class="checkout__order__total">Total <span>$750.99</span></div>
                                 <div class="checkout__input__checkbox">
                                     <label for="acc-or">
                                         Create an account?
@@ -327,7 +426,15 @@
                                 </div>
                                 <button type="submit" class="site-btn">PLACE ORDER</button>
                             </div>
-                        </div>
+                        </div> -->
+
+                       
+                    
+                        <script src="./js/expense_tracker.js" async defer></script>
+
+
+
+
                     </div>
                 </form>
             </div>
@@ -342,7 +449,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="LOGO HACK SNAK.png" style="width: 115px; height: 130px;" alt="">
+                            <a href="./index.html"><img src="LOGO HACK SNAK.png" style="width: 175px; height: 200px;" alt="">
                         </div>
                         <ul>
                             <li>Address: 1, 12, CIT Rd, Bidhannagar, Kolkata, West Bengal 700054</li>
@@ -384,9 +491,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Boolean Autocrats can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://github.com/sainik-khaddar/-FOOD-WEBAPP" target="_blank">Boolean Autocrats</a>
-  <!-- Link back to Boolean Autocrats can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="index.html" target="_blank">BOOLEAN AUTOCRATS</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
                 </div>
@@ -404,7 +511,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="./js/expense_tracker.js" async defer></script>  
  
 
 </body>
