@@ -4,7 +4,7 @@ Welcome to our Exclusive website
 
 Website name: Hack-N-Snack
 
-Team: Sainik Khaddar, Adwaita Raj Modak, Reetam Chatterjee, Arkaprovo Acharya
+Team: Sainik Khaddar, Saptarshi Pani, Adwaita Raj Modak, Reetam Chatterjee, Arkaprovo Acharya
 
 Main Objective: A website which integrates canteens from different campuses, showing the menu and prices and enabling students and faculty to complete payment and book delicious food from different canteens spread across different colleges.
 
